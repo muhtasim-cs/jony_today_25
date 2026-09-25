@@ -1,7 +1,7 @@
-# 🌾 GramBandhan — Frontend, Farmer & Admin Application Hub
+# 🌾 GramBandhan — Farmer Portal & Admin Control Hub
 ### Official Repository for Jony (`jony_today_25`)
 
-This repository contains the complete **Frontend Web Application, Farmer Portal, and Admin Control Hub** for the GramBandhan Rural Agri-FinTech Platform.
+This repository contains the standalone **Farmer Portal** and **Admin Control Hub** for the GramBandhan Rural Agri-FinTech Platform.
 
 ---
 
@@ -18,15 +18,10 @@ This repository contains the complete **Frontend Web Application, Farmer Portal,
 ### 2. 🛡️ Admin & Staff Portal (`Admin/`)
 - **`Admin/admin.html`**: Administrative and compliance management center.
 - **Features**:
-  - **National ID KYC Queue**: Review and verify Farmer/Investor credentials.
+  - **National ID KYC Queue**: Review and verify Farmer credentials.
   - **Deal Approval Engine**: Approve agricultural campaigns for public funding.
   - **Escrow Settlement Release**: Disburse funds directly on Base Sepolia blockchain.
   - **Inter-Role Communication Relay**: Broadcast urgent notices and updates across the platform.
-
-### 3. 🌐 Public Web Portal Subsystem
-- **`homepage.html` / `index.html`**: Hero Section (2.0s continuous agricultural slideshow), Active Projects showcase, and How It Works guide.
-- **`orders.html`**: Real-time delivery tracker with live progress states.
-- **`login.html` & `register.html`**: Role-based authentication with 1-Click Demo Login.
 
 ---
 
@@ -41,7 +36,9 @@ npm install
 ```bash
 npm run dev
 ```
-The application will launch on **`http://localhost:5173`**.
+Open your browser to:
+- **Farmer Portal**: `http://localhost:5173/Farmer/farmer.html`
+- **Admin Console**: `http://localhost:5173/Admin/admin.html`
 
 ### 3. Build for Production
 ```bash
@@ -54,7 +51,5 @@ npm run build
 
 | Portal / View | Local URL |
 | :--- | :--- |
-| **Homepage** | `http://localhost:5173/homepage.html` |
 | **Farmer Dashboard** | `http://localhost:5173/Farmer/farmer.html` |
 | **Admin Panel** | `http://localhost:5173/Admin/admin.html` |
-| **Order Tracking** | `http://localhost:5173/orders.html` |
