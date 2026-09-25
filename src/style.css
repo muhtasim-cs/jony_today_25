@@ -14,12 +14,8 @@
 
 @import './styles/base.css';
 @import './styles/hero-section.css';
-@import './styles/join-as-investor.css';
 @import './styles/active-projects.css';
-@import './styles/marketplace.css';
 @import './styles/join-as-farmer.css';
-@import './styles/investor-portal.css';
 @import './styles/faq.css';
 @import './styles/gnss-map.css';
-@import './styles/chatbot.css';
 @import 'leaflet/dist/leaflet.css';

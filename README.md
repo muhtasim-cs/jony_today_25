@@ -23,10 +23,8 @@ This repository contains the complete **Frontend Web Application, Farmer Portal,
   - **Escrow Settlement Release**: Disburse funds directly on Base Sepolia blockchain.
   - **Inter-Role Communication Relay**: Broadcast urgent notices and updates across the platform.
 
-### 3. 🌐 Investor & Marketplace Subsystem
-- **`homepage.html` / `index.html`**: Hero Section (2.0s continuous agricultural slideshow), Halal investment spotlight, and How It Works guide.
-- **`investor.html` & `investor_*.html`**: Multi-tab Investor ecosystem (Dashboard, Projects, Financials, AI Risk, Profile).
-- **`marketplace.html`**: 100 authentic Bangladeshi rural products priced in Taka (৳) with instant search autocomplete and category filter chips.
+### 3. 🌐 Public Web Portal Subsystem
+- **`homepage.html` / `index.html`**: Hero Section (2.0s continuous agricultural slideshow), Active Projects showcase, and How It Works guide.
 - **`orders.html`**: Real-time delivery tracker with live progress states.
 - **`login.html` & `register.html`**: Role-based authentication with 1-Click Demo Login.
 
@@ -59,7 +57,4 @@ npm run build
 | **Homepage** | `http://localhost:5173/homepage.html` |
 | **Farmer Dashboard** | `http://localhost:5173/Farmer/farmer.html` |
 | **Admin Panel** | `http://localhost:5173/Admin/admin.html` |
-| **Investor Dashboard** | `http://localhost:5173/investor_dashboard.html` |
-| **Investor Projects** | `http://localhost:5173/investor_projects.html` |
-| **Village Marketplace** | `http://localhost:5173/marketplace.html` |
 | **Order Tracking** | `http://localhost:5173/orders.html` |
